@@ -4,11 +4,12 @@ Daily learning log for Python Full Stack course at Dyashin Techosoft.   Covers P
 Day 1
 
 """ """ used for multiple comments
+
 #,/ used for the single line
 
 python --version(used to find the python current version in the device)
 
-variable rule
+variables rule
 * can create with the alphanumeric 
 * can create with the ( _ )underscore
 * can't create number at the first
