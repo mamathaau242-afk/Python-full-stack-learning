@@ -2,6 +2,7 @@
 Daily learning log for Python Full Stack course at Dyashin Techosoft.   Covers Python fundamentals, web development , backend frameworks, databases, and deployment practices. Updated regularly with notes, code snippets, and progress tracking.
 
 Day 1
+
 """ """ used for multiple comments
 #,/ used for the single line
 
