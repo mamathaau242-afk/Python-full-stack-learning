@@ -22,9 +22,39 @@ Daily learning log for Python Full Stack course at Dyashin Techosoft. Updated re
   - Example: `2 + 3i` (real + imaginary part)
 - **Binary Representation (1–10)**
   - Practiced converting decimal numbers into binary form
+
 **Code Snippets**
 - **Copy Function**
   ```python
   x = 3
   y = x        # direct assignment
   y = copy(x)  # using copy function
+
+  x = "hello"
+  y = 2026
+  print(x, y)          # Output: hello 2026
+
+### Strings
+```python
+x = "hello"
+y = 'hello'
+print(x, y)          # Output: hello hello
+print(type(x))       # <class 'str'>
+
+z = "3"
+print(type(z))       # <class 'str'>
+a = 100
+print(a)             # Output: 100
+print(type(a))       # <class 'int'>
+
+a = 2
+b = 3
+c = a / b            # Division (float result)
+d = a // b           # Floor division (quotient)
+
+print(c)             # Output: 0.666...
+print(d)             # Output: 0
+
+print(float(c))      # Converts to float
+print(float(d))      # Converts to float
+
