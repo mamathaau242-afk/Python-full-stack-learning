@@ -1,52 +1,63 @@
 # Day 3
+
 ## Key Learnings
-# Arithmetic Operators in Python
+
+### Arithmetic Operators in Python
 
 Arithmetic operators are used to perform standard mathematical calculations.
 
 - **Addition (`+`)**
-  - Example: `5 + 3`
-  - Result: `8`
-
 - **Subtraction (`-`)**
-  - Example: `5 - 3`
-  - Result: `2`
-
 - **Multiplication (`*`)**
-  - Example: `5 * 3`
-  - Result: `15`
-
 - **Division (`/`)**
   - Always returns a float
-  - Example: `5 / 2`
-  - Result: `2.5`
-
 - **Floor Division (`//`)**
   - Rounds down to the nearest whole number
-  - Example: `5 // 2`
-  - Result: `2`
-
 - **Modulus (`%`)**
-  - Returns the remainder
-  - Example: `5 % 2`
-  - Result: `1`
-
+  - Returns the remainder 
 - **Exponentiation (`**`)**
   - Power operation
-  - Example: `5 ** 2`
-  - Result: `25`
 
----
-
-### 💻 Example Code
+### Example Code
 ```python
-a, b = 5, 3
+a=10
+b=5
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
+```
 
-print(a + b)   # 8
-print(a - b)   # 2
-print(a * b)   # 15
-print(a / 2)   # 2.5
-print(a // 2)  # 2
-print(a % 2)   # 1
-print(a ** 2)  # 25
+# Comparison Operators in Python
+
+Comparison operators are used to compare values. They return either `True` or `False`.
+
+-  == : Equal to (5 == 3 → False)
+-  != : Not equal to (5 != 3 → True)
+-  > : Greater than (5 > 3 → True)
+-  < : Less than (5 < 3 → False)
+-  >= : Greater than or equal to
+-  <= : Less than or equal to
+
+### Example Code
+```python
+a, b = 10,5
+print(a == b)   
+print(a != b)   
+print(a > b)    
+print(a < b)    
+print(a >= b)   
+print(a <= b)   
+```
+
+# Logical Operators
+
+Used to combine conditional statements.
+
+- and : Returns True if both statements are true (x < 5 and x < 10)
+- or : Returns True if at least one statement is true (x < 5 or x < 4)
+- not : Reverses the result (returns False if the result is true)
 
