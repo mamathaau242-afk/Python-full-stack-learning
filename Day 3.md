@@ -47,12 +47,12 @@ Comparison operators are used to compare values. They return either `True` or `F
 ### Example Code
 ```python
 a, b = 10,5
-print(a == b)   
-print(a != b)   
-print(a > b)    
-print(a < b)    
-print(a >= b)   
-print(a <= b)   
+print(a == b)   #output False
+print(a != b)   #output True
+print(a > b)    #output True
+print(a < b)    #output False
+print(a >= b)   #output True
+print(a <= b)   #output False
 ```
 
 # Logical Operators
