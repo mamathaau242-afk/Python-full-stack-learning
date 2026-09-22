@@ -1,7 +1,8 @@
 # Python-full-stack-learning
 Daily learning log for Python Full Stack course at Dyashin Techosoft. Updated regularly with notes, code snippets, and progress tracking.
+
 # Day 1 Learning Log
 - Installed Python
 - Learned about variables and data types
 - Practiced simple print statements
-c
+
