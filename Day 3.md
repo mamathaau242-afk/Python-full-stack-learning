@@ -24,13 +24,13 @@ Arithmetic operators are used to perform standard mathematical calculations.
 ```python
 a=10
 b=5
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(a//b)
-print(a%b)
-print(a**b)
+print(a+b)  #output 15
+print(a-b)  #output 5 
+print(a*b)  #output 50
+print(a/b)  #output 2.0
+print(a//b) #output 2
+print(a%b)  #output 0
+print(a**b) #output 100000
 ```
 
 # Comparison Operators 
