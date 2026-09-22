@@ -23,7 +23,7 @@ Daily learning log for Python Full Stack course at Dyashin Techosoft. Updated re
 - **Binary Representation (1–10)**
   - Practiced converting decimal numbers into binary form
 
-- **Copy Function**
+  ### Copy Function
   ```python
   x = 3
   y = x        # direct assignment
