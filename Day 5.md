@@ -59,6 +59,7 @@ print()
     - col=1 must occur inside the outer loop. Without it, the inner loop runs only once!
 - Dynamic Limits
     - Inner condition col<=row uses the outer counter to create expanding triangular patterns.
+
 -Loop Invariants
     - Ensure both col+=1 and row+=1 progress toward terminate conditions.
 
