@@ -32,7 +32,7 @@ students["s101"]["gpa"]
 students["s102"]["gpa"]=3.7 #Add new key to inner dictionary
 students["s101"]["status"]="Graduated"
 ```
-### Nested IF Execution Logic
+### 3.Nested IF Execution Logic
 - level 1: Outer IF
     - checks age>=18. if false, immediately short-circuits to underage exit.
 - level 2: Sub-IF
@@ -40,7 +40,7 @@ students["s101"]["status"]="Graduated"
 - level 3: Deep-IF
     - Differentiates between VIP and standard zones based on is_vip flag.
 
-### Nested FOR Loop Patterns
+### 4.Nested FOR Loop Patterns
 - outer loop(i)
     - controls major row movements. Increments only after the inner loop finishes.
 - Inner Loop(j)
@@ -54,13 +54,12 @@ for i in range(1,4):
   print(f"{i}*{j}={product}",end="\t")
 print()
 ```
-### Nested WHILE Loops
+### 5.Nested WHILE Loops
 - Counter Reset Rule
     - col=1 must occur inside the outer loop. Without it, the inner loop runs only once!
 - Dynamic Limits
     - Inner condition col<=row uses the outer counter to create expanding triangular patterns.
-
--Loop Invariants
+- Loop Invariants
     - Ensure both col+=1 and row+=1 progress toward terminate conditions.
 
 
