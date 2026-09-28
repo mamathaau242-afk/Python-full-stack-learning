@@ -56,7 +56,7 @@ print()
 ```
 ### Nested WHILE Loops
 - Counter Reset Rule
-    -col=1 must occur inside the outer loop. Without it, the inner loop runs only once!
+    - col=1 must occur inside the outer loop. Without it, the inner loop runs only once!
 - Dynamic Limits
     - Inner condition col<=row uses the outer counter to create expanding triangular patterns.
 -Loop Invariants
