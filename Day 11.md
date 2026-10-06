@@ -58,7 +58,7 @@ arr = np.array([[1, 2, 3], [4, 5, 6]])
 newarr = arr.reshape(-1)
 print(newarr)
 ```
-## Practice Codes
+## Practice Code
 ### 1
 ```python
 #range
