@@ -58,7 +58,7 @@ arr = np.array([[1, 2, 3], [4, 5, 6]])
 newarr = arr.reshape(-1)
 print(newarr)
 ```
-## Codes
+## Practice Codes
 ### 1
 ```python
 #range
@@ -90,4 +90,18 @@ print(arr)
 
 arr = np.max([1,2,3])
 print(arr)
+```
+### 3
+```python
+import numpy as np
+a = np.array([10,20,30,40])
+print(a+5)
+
+a = np.array([10,20,30,40])
+print(a*10)
+
+a = np.array([10,20,30,40])
+print(a**2)
+
+print(np.__version__)
 ```
