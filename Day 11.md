@@ -1,6 +1,6 @@
 # Day 11
 
-## Key Learnings
+## Key Learnings 
 
 ## NumPy Array Shape
 
