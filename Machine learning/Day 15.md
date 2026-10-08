@@ -40,8 +40,8 @@ Reinforcement learning trains an agent to make a sequence of decisions through t
 - Environment
 - Action
 
-### types of fitting(based on train,test data)
-- under fit 
-- best fit 
-- over fit 
+### Types of Fitting(based on train,test data)
+- Under fit 
+- Best fit 
+- Over fit 
 
