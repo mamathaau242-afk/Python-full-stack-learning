@@ -1,5 +1,7 @@
 # Day 18
 
+## Key Learnings
+
 ## Coding
 ```python
 from sklearn.datasets import load_iris
