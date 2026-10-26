@@ -54,3 +54,20 @@ print(f"R-squared (R2 Score): {r2_score(y_te, y_pred_lr):.4f}")
 ```
 <img width="636" height="622" alt="Screenshot 2026-10-26 122453" src="https://github.com/user-attachments/assets/bf637a12-c485-448e-b26e-e4cd99dd6432" />
 <img width="672" height="407" alt="Screenshot 2026-10-26 122510" src="https://github.com/user-attachments/assets/b7314d1d-777d-4338-ac26-6dee64d9d9d3" />
+
+## Random Forest Regression
+Is an ensemble learning method that combines multiple decision trees to produce more accurate and stable predictions. It can be used for both classification and regression tasks, where regression predictions are obtained by averaging the outputs of several trees.
+- Multiple decision trees: Builds many trees and combines their predictions.
+- Ensemble approach: Reduces errors compared to a single decision tree.
+- Regression prediction: Produces continuous values by averaging predictions from all trees.
+
+### Working of Random Forest Regression
+Random Forest Regression works using the bagging (Bootstrap Aggregating) technique:
+- Multiple decision trees are trained on different random subsets of the dataset with replacement to train each tree.
+- Each tree uses a random subset of features while splitting nodes.
+- Due to this each tree learns slightly different data and features, which increases model diversity.
+- The final prediction is obtained by averaging the predictions from all decision trees.
+
+### Support Vector Machine
+Support Vector Machine (SVM) is a supervised machine learning algorithm used for classification and regression tasks. It tries to find the best boundary known as hyperplane that separates different classes in the data. It is useful when you want to do binary classification like spam vs. not spam or cat vs. dog.
+
