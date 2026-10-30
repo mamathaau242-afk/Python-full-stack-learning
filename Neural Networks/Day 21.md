@@ -2,7 +2,7 @@
 
 ## Key Learnings
 
-### CNN
+### Convolution Neural Networks(CNN)
 Convolutional Neural Networks (CNNs), are neural network architectures inspired by the human visual system, designed to process image data by capturing spatial relationships between pixels.
 - Learn hierarchical features from simple edges to complex objects
 - Capture spatial patterns using convolution operations
