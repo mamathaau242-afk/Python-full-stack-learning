@@ -25,7 +25,7 @@ Are machine learning models inspired by the way the human brain processes inform
 - Output Layer: The final layer produces the output of the model. The format of these outputs varies depending on the specific task like classification, regression.
 
 ### Types of Neural Networks
-1. Feedforward Neural Networks
+1. Feedforward Neural Networks(FNN)
 Feedforward neural networks are a type of artificial neural network where data flows in one direction from input to output without forming cycles. Inputs pass through hidden layers to produce outputs.
 2. Convolutional Neural Networks (CNNs)
 Convolutional neural networks are designed to process grid-like data such as images and videos. They use convolutional layers to detect patterns and capture spatial relationships.
@@ -46,5 +46,3 @@ ReLU activation is defined by A(x)=max(o,x). A(x)=max(0,x), this means that if t
 5. Softmax Function
 Softmax function is similar to ReLU but avoids sharp transitions by being fully differentiable.
 
-
-4. 
